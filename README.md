@@ -1,20 +1,12 @@
-# CETESB Fumaça Preta — PWA V1.20
+# CETESB Fumaça Preta — PWA Funcional V1.22
 
-Esta pasta contém uma versão PWA instalável pelo navegador.
+Versão funcional para GitHub Pages/Azure Static Web Apps.
 
-## Arquivos
+## Novidades
+- Placa por áudio quando o navegador suportar Web Speech API.
+- Fundo neutro/claro na Escala Ringelmann.
+- Endereço aproximado por GPS via OpenStreetMap/Nominatim.
+- Salvamento local, histórico, edição, conferência, guia física, CSV, backup JSON e relatórios.
 
-- `index.html` — app web demonstrativo
-- `manifest.json` — nome, ícone e comportamento de instalação
-- `service-worker.js` — cache/offline básico
-- `icons/` — ícones do app
-
-## Como instalar no celular
-
-1. Publique esta pasta em uma URL HTTPS.
-2. Abra a URL no Chrome Android ou Safari iPhone.
-3. Use "Adicionar à tela inicial" ou "Instalar app".
-
-## Observação
-
-Abrir `index.html` como arquivo local permite visualizar, mas a instalação PWA completa funciona melhor via HTTPS.
+## Atenção
+Os dados ficam no navegador/celular. Faça backup JSON frequentemente.
